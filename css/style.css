@@ -621,7 +621,7 @@ div.network {
    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 420px) {
    .registration {
       padding: 10px 10px;
       margin: 35px auto;
@@ -632,6 +632,7 @@ div.network {
    }
    .use-data input {
       width: 90%;
+      max-width: 90%;
       padding-top: 20px;
    }
 }
